@@ -5,14 +5,15 @@ from django.utils import timezone
 
 #						EDIT THIS
 
-# import the collection reference for storing session from your firestore initialization file
-# assuming you initialized your firestore in firestore_init.py
+# Import the collection reference for storing session data 
+# from your Firestore initialization file as `__SESSION_COL__`
 
-from firestore_init import FIRESTORE_SESSION_COL	# assuming the collection is called `FIRESTORE_SESSION_COL`
+# assuming your firestore initialization file is called 'firestore_init.py` and
+# you initialized the `FIRESTORE_SESSION_COL` as the collection to store session data
+from firestore_init import FIRESTORE_SESSION_COL as __SESSION_COL__
 
-# __SESSION_COL__ variable is used throughout this file as the collection to store session data
-__SESSION_COL__ = FIRESTORE_SESSION_COL				# replace the `FIRESTORE_SESSION_COL` with your imported collection
-
+# __SESSION_COL__ variable is used throughout this file as the collection to 
+# store/retrieve session data
 
 #							END
 
