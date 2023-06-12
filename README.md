@@ -1,4 +1,4 @@
-<p style="margin: 2rem auto; width: -moz-fit-content; width: fit-content; font: 2.5rem 'JetBrains Mono'">Django-Firestore-Session-Engine</p>
+# <p align="center" style="margin: 2rem auto; width: -moz-fit-content; width: fit-content; font: 2.5rem 'JetBrains Mono'">Django-Firestore-Session-Engine</p>
 
 
 This is a simple [`Django Session Engine`](https://docs.djangoproject.com/en/dev/topics/http/sessions) that uses `Firestore` as the database to store session data.
@@ -33,4 +33,4 @@ This Engine was made based on what is described in the Djnago documentation on [
 
 Please send any  comments  and  criticisms  to the author here <a href="mailto:saif.resun@outlook.com">saif.resun<span style="color: #fc4445; margin: 0 3px; font: 1rem 'JetBrains Mono'; font-style: italic;">@</span>outlook.com</a>
 
-<p style="margin: 2rem auto; width: -moz-fit-content; width: fit-content; font: 2rem 'JetBrains Mono'; color: #fc4445">Happy Coding!</p>
+# <p align="center" color="#fc4445" style="margin: 2rem auto; width: -moz-fit-content; width: fit-content; font: 2rem 'JetBrains Mono'; color: #fc4445">Happy Coding!</p>
