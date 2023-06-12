@@ -30,8 +30,7 @@ Do not 'initialize' or 'import initialized' Firestore in more than one file whil
 
 This Engine was made based on what is described in the Djnago documentation on [`How to use sessions`](https://docs.djangoproject.com/en/dev/topics/http/sessions/) and after some reverse-engineering of the existing session engines, especially the `'django.contrib.sessions.backends.db'` and `'django.contrib.sessions.backends.file'` engines.
 
-
-Please send any  comments  and  criticisms  to the author here <a href="mailto:saif.resun@outlook.com">saif.resun<span style="color: #fc4445; margin: 0 3px; font: 1rem 'JetBrains Mono'; font-style: italic;">@</span>outlook.com</a>
+<p>Please send any  comments  and  criticisms  to the author here <a href="mailto:saif.resun@outlook.com">saif.resun&nbsp;<img style="display: inline;" src="https://resun-c.github.io/resources/at_sign_red.png?t=1686599283" height="16px" />&nbsp;</span>outlook.com</a></p>
 
 <picture>
 <img src="https://resun-c.github.io/resources/happy_coding.svg?t=1686599283" height="fit-content">
