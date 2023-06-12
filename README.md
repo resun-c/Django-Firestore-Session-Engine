@@ -33,4 +33,6 @@ This Engine was made based on what is described in the Djnago documentation on [
 
 Please send any  comments  and  criticisms  to the author here <a href="mailto:saif.resun@outlook.com">saif.resun<span style="color: #fc4445; margin: 0 3px; font: 1rem 'JetBrains Mono'; font-style: italic;">@</span>outlook.com</a>
 
-# <p align="center" color="#fc4445" style="margin: 2rem auto; width: -moz-fit-content; width: fit-content; font: 2rem 'JetBrains Mono'; color: #fc4445">Happy Coding!</p>
+<picture>
+<img src="https://resun-c.github.io/resources/happy_coding.svg">
+</picture>
