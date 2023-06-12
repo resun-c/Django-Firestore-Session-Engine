@@ -9,7 +9,7 @@ This is a simple [`Django Session Engine`](https://docs.djangoproject.com/en/dev
 
 Import the collection reference for storing session data from your Firestore initialization file as `__SESSION_COL__`
 
-### Change [`line 13`](firestore_session_engine.py#13) of the [`firestore_session_engine.py`](firestore_session_engine.py) file
+#### Change [line 13](firestore_session_engine.py#13) of the [firestore_session_engine.py](firestore_session_engine.py) file
 
 
 ```
