@@ -7,9 +7,9 @@ This is a simple [`Django Session Engine`](https://docs.djangoproject.com/en/dev
 ## How to use
 
 
-Import the collection reference for storing session data from your Firestore initialization file as `__SESSION_COL__`
+### 1. Import the collection reference for storing session data from your Firestore initialization file as `__SESSION_COL__`
 
-#### Change [line 13](firestore_session_engine.py#L13) of the [firestore_session_engine.py](firestore_session_engine.py) file
+##### Change [line 13](firestore_session_engine.py#L13) of the [firestore_session_engine.py](firestore_session_engine.py) file
 
 
 ```
@@ -19,6 +19,17 @@ from firestore_init import FIRESTORE_SESSION_COL as __SESSION_COL__
 ```
 
 Replace `firestore_init` with the file name where you have initialized `Firestore` and `FIRESTORE_SESSION_COL` with the variable name you used to initialize the collection where you want to store session data.
+
+### 2. Add the Engine as the Session Engine in your project's `setting.py` file:
+
+```
+
+SESSION_ENGINE = 'Engines.firestore_session_engine'
+
+```
+Replace `Engines.firestore_session_engine` with the path of your Engine file relative to the `BASE_DIR` directory.
+
+## **<p  align="center">After completing these two steps, you are ready to go!</p>**
 
 
 ## Tips
