@@ -33,7 +33,7 @@ Replace `Engines.firestore_session_engine` with the path of your Engine file rel
 
 ## Use Cases
 
-This can be useful if you can't use Django's Database Engines or other Session Engines. Google Cloud App Engine, for example, requires you to use Cloud SQL to use Database, which is costly. On the other hand, Cloud FireStore is free up to a limit, and it is not as expensive as Cloud SQL on paid plans. So if you use App Engine and need a cost-effective solution for session cookies, this can be useful.
+This can be useful if you can't use Django's Database Engines or other Session Engines. Google Cloud App Engine, for example, requires you to use Cloud SQL to use Database, which is costly. On the other hand, Cloud Firestore is free up to a limit, and it is not as expensive as Cloud SQL on paid plans. So if you use App Engine and need a cost-effective solution for session cookies, this can be useful.
 
 ## Tips
 
