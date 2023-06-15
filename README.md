@@ -20,7 +20,7 @@ from firestore_init import FIRESTORE_SESSION_COL as __SESSION_COL__
 
 Replace `firestore_init` with the file name where you have initialized `Firestore` and `FIRESTORE_SESSION_COL` with the variable name you used to initialize the collection where you want to store session data.
 
-### 2. Add the Engine as the Session Engine in your project's `setting.py` file:
+### 2. Add the Engine as the `SESSION_ENGINE` in your project's `setting.py` file:
 
 ```
 
